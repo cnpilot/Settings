@@ -1,3 +1,15 @@
-#!/bin/bash
-#
-# qBittorrent 'Run after completion':
+[10bit]
+type = drive
+client_id = 293267119318-iami6r95nh5s4l69gi2fp3ni4g54tf8m.apps.googleusercontent.com
+client_secret = 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
+scope = drive
+token = {"access_token":"ya29.a0AfB_byCH39eAynw4W_7ep5igERnleM0jQ33wpPtFyLSaQb_SKtqmXYB6c9k4L4CXRxCsEcN_O1wCiFstAuBCwi9sgWmrQaHYNH2l2M5rwl4Ut9LxehotAT7iuUshs9fWQInBHGGC0wnLbq-2HEPCSzCOwDtiQhPBrf2waCgYKAW0SARISFQGOcNnCT3_kk_KuFBe5DKThmi2RJw0171","token_type":"Bearer","refresh_token":"1//06y9ZsK-gLY3hCgYIARAAGAYSNwF-L9IrrwKBctZO_PajU53hhW_bq07z-SpETdZr9J-yEtucV5y9aEgnchnFZuvVYYUalYMCwBA","expiry":"2023-11-02T09:47:35.8843356+08:00"}
+team_drive = 0AFAcSD2pMrE2Uk9PVA
+
+[remux]
+type = drive
+client_id = 293267119318-iami6r95nh5s4l69gi2fp3ni4g54tf8m.apps.googleusercontent.com
+client_secret = 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
+scope = drive
+token = {"access_token":"ya29.a0AfB_byCH39eAynw4W_7ep5igERnleM0jQ33wpPtFyLSaQb_SKtqmXYB6c9k4L4CXRxCsEcN_O1wCiFstAuBCwi9sgWmrQaHYNH2l2M5rwl4Ut9LxehotAT7iuUshs9fWQInBHGGC0wnLbq-2HEPCSzCOwDtiQhPBrf2waCgYKAW0SARISFQGOcNnCT3_kk_KuFBe5DKThmi2RJw0171","token_type":"Bearer","refresh_token":"1//06y9ZsK-gLY3hCgYIARAAGAYSNwF-L9IrrwKBctZO_PajU53hhW_bq07z-SpETdZr9J-yEtucV5y9aEgnchnFZuvVYYUalYMCwBA","expiry":"2023-11-02T09:47:35.8843356+08:00"}
+team_drive = 0AFAcSD2pMrE2Uk9PVA
