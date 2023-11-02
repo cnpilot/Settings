@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+# qBittorrent 'Run after completion':
+# /home/ccf2012/torcp/rcp.sh "%F"  "%N"
+
+# # example 1: hardlink to local emby folder
+
+sleep 3
+python3 /home/boxbox/torcp/tp.py "$1" -d "/home/boxbox/Emby/$2/" -s  --imdbid "$3" --tmdb-api-key 1f749b3a822f0982bf853b1c5c145824   --emby-bracket  >>/home/boxbox/wrcp.log 2>>/home/boxbox/trcp_error.log
+
+gclone move "/home/boxbox/Emby/$2/"  ta:{1eWxrzzYiI7x7bfsacWV1rX1V0tTj6uUs} -v --stats 2000s --transfers 3 --tpslimit 15  --drive-chunk-size 32M --bwlimit 80M --log-file=/home/boxbox/log_rclone.log
+rm -rf "/home/boxbox/Emby/$2/"
