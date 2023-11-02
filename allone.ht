@@ -1,15 +1,1 @@
-[10bit]
-type = drive
-client_id = 288492212358-0jnhc2s3h6123m09g42eu10hlg28jb5h.apps.googleusercontent.com
-client_secret = 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
-scope = drive
-token = {"access_token":"ya29.a0AfB_byDf7liMA_lu5D3XiAVRH7xEONL6CdU8UOriX-IsWhKNaSc_MyUS7tfhcpRG743Eb2q41o8HNaBOiQJpUMFPhxHKHc7ALBLKWN7vAuuTh5G-z0Lz57QHDEP-KBDsEkJeJxd97czelItM6hlYm3JF30JdX2JQCwUvaCgYKAcoSARASFQGOcNnCYNAltAYKPqgm93a92MSeHA0171","token_type":"Bearer","refresh_token":"1//06Qhm2YWqblARCgYIARAAGAYSNwF-L9IrTr_Hai0e__b8fRBoHdtslX0fsws3ZMwspXPMHzC8vKKBy5mR7b-GcpUPH_XoXBdXYLY","expiry":"2023-11-02T09:32:39.281309+08:00"}
-team_drive = 0AFAcSD2pMrE2Uk9PVA
-
-[remux]
-type = drive
-client_id = 293267119318-iami6r95nh5s4l69gi2fp3ni4g54tf8m.apps.googleusercontent.com
-client_secret = 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
-scope = drive
-token = {"access_token":"ya29.a0AfB_byCH39eAynw4W_7ep5igERnleM0jQ33wpPtFyLSaQb_SKtqmXYB6c9k4L4CXRxCsEcN_O1wCiFstAuBCwi9sgWmrQaHYNH2l2M5rwl4Ut9LxehotAT7iuUshs9fWQInBHGGC0wnLbq-2HEPCSzCOwDtiQhPBrf2waCgYKAW0SARISFQGOcNnCT3_kk_KuFBe5DKThmi2RJw0171","token_type":"Bearer","refresh_token":"1//06y9ZsK-gLY3hCgYIARAAGAYSNwF-L9IrrwKBctZO_PajU53hhW_bq07z-SpETdZr9J-yEtucV5y9aEgnchnFZuvVYYUalYMCwBA","expiry":"2023-11-02T09:47:35.8843356+08:00"}
-team_drive = 0AFAcSD2pMrE2Uk9PVA
+1
