@@ -1,1 +1,11 @@
-1
+[10bit]
+type = drive
+scope = drive
+token = {"access_token":"ya29.a0AfB_byD1hRU4ICrk2pgdU1vnhgD5coVduVjFPin2Q_ktqNZdvHDFx2gJh7wMxDNNRXoIq_eymAIn0aKasRQH-hJsD_Cax3KT_LjRGu-T-6RHDU5MqtGDUjbdUcCCnGlNiQnW8sqiCbICxgDVr0qxnF3yHAXeRXRlipD6aCgYKAaQSARASFQGOcNnCDFF-cN3pqp_apxkK-vRJ2g0171","token_type":"Bearer","refresh_token":"1//06asLn30KeTOGCgYIARAAGAYSNwF-L9IrhIeww3QLW_xCuxSspwZX3bmSohLLi5Yxi-2QqSLk4Wz493SMvXJBSems91Jl2U-71z4","expiry":"2023-11-07T23:51:45.2297887+08:00"}
+team_drive = 0AFAcSD2pMrE2Uk9PVA
+
+[remux]
+type = drive
+scope = drive
+token = {"access_token":"ya29.a0AfB_byDwVtfQ8Sb7-tNPhcfyCN4nzb-Y6EitNWoRO7zUaOEJxif0CaJJt_t9zoERS4wAczf1YWVBELA5ojFZxBhm0BOM97VvontLsl1uj-NGd7KdQLvFlljS7eZ-OtP6zj0fasKd0Le287HidHomh6GKv2VGNDRn9mTraCgYKAegSARISFQGOcNnCmsNoAcJrrNout1YywSLTDw0171","token_type":"Bearer","refresh_token":"1//06_yiBvEk5DV1CgYIARAAGAYSNwF-L9Ir0xpuJV9xy8HynnBHJRTRLxFHoaJT9Bo-NxoDFsPet0N3qyX-3cJyGstkgBHhLN_XEX8","expiry":"2023-11-07T23:53:47.3059762+08:00"}
+team_drive = 0AFAcSD2pMrE2Uk9PVA
