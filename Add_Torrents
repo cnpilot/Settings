@@ -1,10 +1,5 @@
-import os
 import requests
-import logging
-import time
-
-# 配置日志记录
-logging.basicConfig(filename='script.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+import os
 
 def download_torrent(url, save_path):
     response = requests.get(url)
@@ -12,13 +7,12 @@ def download_torrent(url, save_path):
         file.write(response.content)
 
 def add_tag_to_torrent(torrent_path, tag):
-    save_path = f'/home/boxbox/qbittorrent/torrents/{tag}/'
-    os.system(f'qbittorrent-nox --save-path="{save_path}" --category="{tag}" "{torrent_path}"')
-    logging.info(f"Added tag '{tag}' to torrent: {torrent_path}")
+    save_path = tag
+    os.system(f'qbittorrent-nox --save-path={save_path} {torrent_path}')
 
 def extract_id_from_url(url):
     id_string = url.split('id=')[1].split('&')[0]
-    return 'id=' + id_string
+    return id_string
 
 def process_links(links_file):
     with open(links_file, 'r') as file:
@@ -26,20 +20,10 @@ def process_links(links_file):
             url = line.strip()
             id_string = extract_id_from_url(url)
             torrent_file = f"{id_string}.torrent"
+            download_path = f"/home/boxbox/qbittorrent/download/leaves_{id_string}/"
             download_torrent(url, torrent_file)
-            add_tag_to_torrent(torrent_file, id_string)
-            time.sleep(2)  # 每个种子下载之间的延迟时间
+            add_tag_to_torrent(torrent_file, download_path)
 
 # 替换为您的链接文件路径
 links_file_path = '/home/boxbox/links.txt'
-
-# 记录脚本开始的日志
-logging.info('Script started.')
-
-try:
-    process_links(links_file_path)
-    # 记录脚本成功完成的日志
-    logging.info('Script completed successfully.')
-except Exception as e:
-    # 记录脚本出错的日志
-    logging.error(f'Script encountered an error: {str(e)}')
+process_links(links_file_path)
