@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# /home/boxbox/create_iso.sh "%F" "%N" "%G" "%D" "%L" "%R" "%C" "%Z" "%I"
 sleep 2
 
 path="$3"
