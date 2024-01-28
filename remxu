@@ -8,5 +8,5 @@
 sleep 3
 python3 /home/boxbox/torcp/tp.py "$1" -d "/home/boxbox/Emby/$2/" -s  --imdbid "$3" --tmdb-api-key 1f749b3a822f0982bf853b1c5c145824  --origin-name --emby-bracket  >>/home/boxbox/wrcp.log 2>>/home/boxbox/trcp_error.log
 
-rclone copy "/home/boxbox/Emby/$2/"  gd09:/Emby/Moive/ADE_Remux/ -v --stats 2000s --transfers 3   --drive-chunk-size 32M --bwlimit 20M --log-file=/home/boxbox/log_rclone.log
+rclone copy "/home/boxbox/Emby/$2/"  gd12:/Emby/Moive/ADE_Remux/ -v --stats 2000s --transfers 3   --drive-chunk-size 32M --bwlimit 80M --log-file=/home/boxbox/log_rclone.log
 rm -rf "/home/boxbox/Emby/$2/"
