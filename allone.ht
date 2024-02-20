@@ -153,3 +153,9 @@ type = drive
 scope = drive
 token = {"access_token":"ya29.a0AfB_byD4O4W63WC061TK1HnWyEH08d161jbft-Z4iJPbnNGx3EP6tjVHbyCC0gCV-4gTkSA9jxOY53K_X3gajACNliuCHGGdb1I8Wwhoa3qfGBowJOuXTgoYz_emGVEdHSbK4bYw28jN2BTSdhlYb0R2xe1M4-I8S0SGaCgYKAW4SARASFQHGX2MiFhV9FFa-zq2BB4QXT2V3Uw0171","token_type":"Bearer","refresh_token":"1//05Fgg2qYcEiwZCgYIARAAGAUSNwF-L9IrfPf1qEfsCCyX6pGbtYb3njYZ8C9pLCQ6wt6Z4GKdHJJ1llbAyVNVXzbenb_TQeKUF24","expiry":"2024-01-12T15:17:41.1217067+08:00"}
 team_drive = 0AFAcSD2pMrE2Uk9PVA
+
+[emby01]
+type = drive
+scope = drive
+token = {"access_token":"ya29.a0AfB_byBy7n9rqee1XPcH4pwwl2lK_r4szv9kppfkcq-VxYePXMrd4fPOcE5QFmOgWUbj_axeO1010gQSPQzOHvLF5tjFbfFvhFhi1XRIGuO8pMW0uAvpAjWvgs2BQ3fe0zG92s6x6MctEDhaC2BMqUQtoo2QITGovBJ9aCgYKAYoSARISFQHGX2Mibm5XJneoCCkPEi2DGU4e1A0171","token_type":"Bearer","refresh_token":"1//05iPymgMeHYzuCgYIARAAGAUSNgF-L9IrKmQFaFn382AYC-x1tIrisJvtxS36MYAZTc0ew1CmTSQxnZCcA8w_iNU0VktDr7tAMQ","expiry":"2024-02-20T14:05:13.1178604+08:00"}
+team_drive = 0AFAcSD2pMrE2Uk9PVA
